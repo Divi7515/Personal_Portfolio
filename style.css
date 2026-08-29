@@ -1,0 +1,400 @@
+/* =========================
+   Navigation Bar
+========================= */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #222;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #aaa;
+}
+
+
+/* =========================
+   Home Section
+========================= */
+#home {
+    min-height: 70vh;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f6f9;
+}
+
+
+.home-content p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.home-content h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.home-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.home-content .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+/* =========================
+   About Section
+========================= */
+
+#about {
+    padding: 80px 60px;
+    background-color: white;
+}
+
+.about-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-content h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.about-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-description {
+    flex: 1;
+}
+
+.about-description h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-description p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   Skills Section
+========================= */
+
+#skills {
+    padding: 80px 60px;
+    background-color: #f4f6f9;
+}
+
+.skills-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.skills-content h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.skill-category {
+    margin-bottom: 40px;
+}
+
+.skill-category h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================
+   Projects Section
+========================= */
+
+#projects {
+    padding: 80px 60px;
+    background-color: white;
+}
+
+.projects-content {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.projects-content h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-card {
+    width: 400px;
+    padding: 20px;
+    background-color: #f4f6f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.project-card img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    line-height: 1.6;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-btn:hover {
+    background-color: #444;
+}
+
+
+/* =========================
+   Contact Section
+========================= */
+
+#contact {
+    padding: 80px 60px;
+    background-color: #f4f6f9;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-content h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contact-content > p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+#contactForm button {
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #444;
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-links a {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* =========================
+   Mobile Responsive Design
+========================= */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #home {
+        padding: 40px 20px;
+    }
+
+    .home-content h1 {
+        font-size: 45px;
+    }
+
+    .home-content h2 {
+        font-size: 25px;
+    }
+
+    #about {
+        padding: 60px 20px;
+    }
+
+    .about-text {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+}
+
+.about-image img {
+    width: 220px;
+    height: 220px;
+}
+
+    .about-description {
+        width: 100%;
+    }
+
+    #skills {
+        padding: 60px 20px;
+    }
+
+    #projects {
+        padding: 60px 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    #contact {
+        padding: 60px 20px;
+    }
+
+}
