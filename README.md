@@ -1,5 +1,3 @@
-# Personal-Portfolio
-A responsive personal portfolio website showcasing my skills, projects, and contact information, built using HTML, CSS, and JavaScript.
 # Personal Portfolio Website
 
 Welcome to my personal portfolio website! 👋
@@ -33,14 +31,16 @@ I am an aspiring Full Stack Developer passionate about building responsive and u
 ## Projects
 
 ### To-Do List
+
 A task management application that allows users to add, edit, complete, delete, and filter tasks. Tasks are saved using Local Storage.
 
 ### DevOps Project
+
 Implemented a CI/CD pipeline using GitHub, Jenkins, and Docker to automate application build and deployment.
 
 ## Live Website
 
-[View My Portfolio](https://divi7515.github.io/portfolio/)
+[View My Portfolio](https://divi7515.github.io/Personal_Portfolio/)
 
 ## Author
 
