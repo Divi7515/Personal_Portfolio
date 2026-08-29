@@ -40,7 +40,7 @@ Implemented a CI/CD pipeline using GitHub, Jenkins, and Docker to automate appli
 
 ## Live Website
 
-[View My Portfolio](https://divi7515.github.io/Personal_Portfolio/)
+[View My Portfolio][(https://divi7515.github.io/Personal_Portfolio/)]
 
 ## Author
 
